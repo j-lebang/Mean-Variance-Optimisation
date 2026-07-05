@@ -8,9 +8,9 @@ The project derives the analytical solution using **Lagrange multipliers**, vali
 
 The optimisation problem considered is
 
-$$ \min \_w \quad w^T \Sigma w $$
+$$ \min_w \quad w^T \Sigma w $$
 $$ s.t. \quad \mu^T w = r $$
-$$ \quad \quad \bold 1^T w = 1 $$
+$$ \quad \quad \mathbf{1}^T w = 1 $$
 
 The analytical solution is obtained using the method of Lagrange multipliers and solved numerically using a Cholesky decomposition. The implementation is validated against a quadratic programming solver before being evaluated on historical financial data
 
